@@ -26,7 +26,8 @@
 
 *******************************************************************************************************************************************************************************************************************************************
 ## Настройка Assetto Corsa ( Рекомендуется ВАРИАНТ 1 )  
- Рекомендуемые настройки помощи внутри игры - ![image](https://github.com/Tr1stx/MSteerHelp/assets/71893240/8d30a3ed-ce13-4ede-b2ae-8f2ccee09fe6)
+ Рекомендуемые настройки помощи внутри игры - ![image](https://github.com/Tr1stx/MSteerHelp/assets/71893240/eb35f845-0ce4-4017-9407-a33288dfa43d)
+
 
 
 
@@ -38,14 +39,17 @@
 
 ВАЖНО- ДЛЯ ТОГО ЧТО БЫ НАЗНАЧИТЬ ОСИ VJOY НУЖНО ЗАПУСТИТЬ MSteerHelp 
 НАЖАТЬ НА НУЖНУЮ ОСЬ - НАЖАТЬ "TAB" - НАЗНАЧИТ КНОПКУ - НАЖАТЬ СНОВА "TAB" И НАЗНАЧИТ СЛЕДУЮЩУЮ ОСЬ В ТАКОМ ЖЕ ПОРЯДКЕ.
-( НАЗНАЧЕНИЕ КНОПОК СМОТРЕТЬ НИЖЕ) -![image](https://github.com/Tr1stx/MSteerHelp/assets/71893240/de09e7c1-ac82-46a5-a282-f060521ee2d0)
+( НАЗНАЧЕНИЕ КНОПОК СМОТРЕТЬ НИЖЕ) -![image](https://github.com/Tr1stx/MSteerHelp/assets/71893240/b24cf9f3-9738-45c9-a006-1c5ac1eef2ba)
 
 
 
-1. CSP (FFB) - ![CustomShaderSetting](https://github.com/Tr1stx/MSteerHelp/assets/71893240/cf25691d-d77a-4fae-9c1d-a885a84877f4)
+
+1. CSP (FFB) - ![CustomShaderSetting](https://github.com/Tr1stx/MSteerHelp/assets/71893240/e1e083e7-b53f-48e0-aa08-46c555fa27ae)
 
 
-2. AssettoCorsa управление (ТОЛЬКО ДЛЯ РУЛЯ) - ![IngameSetting](https://github.com/Tr1stx/MSteerHelp/assets/71893240/19ff9ed0-913f-402c-af7c-48d3a18fee63)
+
+2. AssettoCorsa управление (ТОЛЬКО ДЛЯ РУЛЯ) - ![IngameSetting](https://github.com/Tr1stx/MSteerHelp/assets/71893240/bc2d081a-2da1-4df9-bd26-1dfba024dcab)
+
 
 3. ОБЯЗАТЕЛЬНО - назачения переключения скоростей.
 
