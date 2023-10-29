@@ -1,0 +1,129 @@
+﻿<Window
+    x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MSteerHelp (BETA 1)"
+    Width="399"
+    Height="184"
+    mc:Ignorable="d">
+
+    <Grid RenderTransformOrigin="0.496,0.475">
+
+        <Grid
+            Grid.Row="1"
+            Height="31"
+            Margin="18,8,18,0"
+            VerticalAlignment="Top">
+            <Slider
+                x:Name="MouseSensitivitySlider"
+                Height="18"
+                Margin="0,13,0,0"
+                VerticalAlignment="Top"
+                Maximum="20"
+                Minimum="0"
+                SmallChange="0"
+                ValueChanged="MouseSensitivitySlider_ValueChanged"
+                Value="6" />
+            <TextBlock
+                Width="88"
+                Height="16"
+                Margin="159,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Text="{Binding Value, ElementName=MouseSensitivitySlider, StringFormat=MouseSens: \{0\}}" />
+        </Grid>
+        <Grid
+            Width="60"
+            Height="55"
+            Margin="208,58,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            <TextBlock
+                Width="47"
+                Height="16"
+                Margin="9,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="0.539,2.835"
+                Text="{Binding Value, ElementName=FfbSensitivitySlider, StringFormat=FFB: \{0\}}" />
+            <Slider
+                x:Name="FfbSensitivitySlider"
+                Width="60"
+                Height="20"
+                Margin="0,35,0,0"
+                HorizontalAlignment="Center"
+                Maximum="100"
+                Minimum="0"
+                RenderTransformOrigin="0.522,0.5"
+                ValueChanged="FfbSensitivitySlider_ValueChanged"
+                Value="50">
+                <Slider.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform Angle="-90" />
+                        <TranslateTransform X="-1.32" Y="-1.32" />
+                    </TransformGroup>
+                </Slider.RenderTransform>
+            </Slider>
+        </Grid>
+        <ToggleButton
+            x:Name="ToggleABSButton"
+            Width="39"
+            Height="22"
+            Margin="44,84,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Checked="OnToggleABSButtonChecked"
+            Content="OFF"
+            Unchecked="OnToggleABSButtonUnchecked" />
+
+        <Grid
+            Width="60"
+            Height="55"
+            Margin="147,58,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            <TextBlock
+                Width="53"
+                Height="16"
+                Margin="2,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="0.617,2.866"
+                Text="{Binding Value, ElementName=GyroSensitivitySlider, StringFormat=Gyro: \{0\}}" />
+            <Slider
+                x:Name="GyroSensitivitySlider"
+                Width="60"
+                Height="20"
+                Margin="0,35,0,0"
+                HorizontalAlignment="Center"
+                Maximum="100"
+                Minimum="0"
+                RenderTransformOrigin="0.499,0.5"
+                ValueChanged="GyroSensitivitySlider_ValueChanged"
+                Value="50">
+                <Slider.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform Angle="-90" />
+                        <TranslateTransform X="0.06" Y="0.06" />
+                    </TransformGroup>
+                </Slider.RenderTransform>
+            </Slider>
+
+        </Grid>
+        <TextBlock
+            Width="24"
+            Height="16"
+            Margin="18,87,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="0.617,2.866"
+            Text="ABS:" />
+    </Grid>
+
+</Window>

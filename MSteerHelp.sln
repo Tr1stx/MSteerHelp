@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssettoCorsaSharedMemory", "..\..\..\testPJ\accsharedmemory-master\AssettoCorsaSharedMemory.csproj", "{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A7A3E75-69AE-4C33-A5A5-8E50AA19D04A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSteerHelp", "MSteerHelper(beta1)\MSteerHelp.csproj", "{0B30B860-683A-4C45-9519-D00AEA774D13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugFull|Any CPU = DebugFull|Any CPU
+		DebugFull|x64 = DebugFull|x64
+		DebugFull|x86 = DebugFull|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|Any CPU.ActiveCfg = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|Any CPU.Build.0 = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|x64.ActiveCfg = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|x64.Build.0 = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|x86.ActiveCfg = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.DebugFull|x86.Build.0 = DebugFull|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|x64.Build.0 = Release|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{020AF3ED-0A4C-4215-9B1D-1D41DD26F8BB}.Release|x86.Build.0 = Release|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|x64.ActiveCfg = Debug|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|x64.Build.0 = Debug|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|x86.ActiveCfg = Debug|x86
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Debug|x86.Build.0 = Debug|x86
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|Any CPU.Build.0 = Debug|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|x64.ActiveCfg = Debug|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|x64.Build.0 = Debug|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|x86.ActiveCfg = Debug|x86
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.DebugFull|x86.Build.0 = Debug|x86
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|x64.ActiveCfg = Release|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|x64.Build.0 = Release|x64
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|x86.ActiveCfg = Release|x86
+		{0B30B860-683A-4C45-9519-D00AEA774D13}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB481012-D84C-4A8B-8173-BF3D30D0FDBF}
+	EndGlobalSection
+EndGlobal

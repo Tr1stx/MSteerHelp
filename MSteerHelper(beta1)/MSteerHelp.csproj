@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Platforms>AnyCPU;x64;x86</Platforms>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<AnalysisLevel>6.0-recommended</AnalysisLevel>
+		<AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+		<UseWPF>True</UseWPF>
+		<SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
+		<StartupObject></StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Class1.cs" />
+		<Compile Remove="KeyboardPedals1.cs" />
+		<Compile Remove="MainV1.cs" />
+		<Compile Remove="MainV2%28FFB%29.cs" />
+		<Compile Remove="MainWindow.g.i.cs" />
+		<Compile Remove="PedalScaling.cs" />
+		<Compile Remove="PedalScaling1.cs" />
+		<Compile Remove="Window1.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
+		<PackageReference Include="SharpDX.XInput" Version="4.2.0" />
+		<PackageReference Include="vJoy.Wrapper" Version="1.0.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\testPJ\accsharedmemory-master\AssettoCorsaSharedMemory.csproj" />
+	</ItemGroup>
+
+</Project>
